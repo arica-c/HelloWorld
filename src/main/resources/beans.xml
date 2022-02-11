@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="addingTweet" class="com.example.helloworld.Services.AddingTweet" />
+
+    <bean id="filterTimeline" class="com.example.helloworld.Services.FilterTimeline" />
+
+
+  <bean id="gettingTimeline" class="com.example.helloworld.Services.GettingTimeline" />
+  <bean id="twitterPost" class = "com.example.helloworld.Models.TwitterPost" />
+
+</beans>
